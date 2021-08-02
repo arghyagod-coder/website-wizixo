@@ -51,12 +51,12 @@ Cons:
             <td rowspan=3>Download</td>
             <td>Linux Mint 20.2</td>
             <td>mint-download.html</td>
-            <td>Same as old website</td>
+            <td>Download Page for Linux Mint</td>
         </tr>
         <tr>
             <td>LMDE 4</td>
             <td>mint-download-lmde.html</td>
-            <td>Same as old website</td>
+            <td>Download Pade for LMDE</td>
         </tr>
         <tr>
             <td>All versions</td>

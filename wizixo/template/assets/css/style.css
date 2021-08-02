@@ -18520,3 +18520,108 @@ xpush
 }
 
 /*User CSS*/
+.tab thead th{
+  font-size: 24px;
+}
+.tab{
+  font-size: 16px;
+  width: 90%;
+  text-align: center;
+  position: relative;
+  left: 5%;
+  right: 5%;
+}
+.dbbtn{
+  margin: 3px 3px 3px 3px;
+  border: 2px solid black;
+}
+.edition .info{
+    background: -moz-linear-gradient(150deg, #97c74e 0%, #2ab9a5 100%);
+    background: -webkit-gradient(linear, left top, right top, color-stop(0%, #97c74e), color-stop(100%, #2ab9a5));
+    background: -webkit-linear-gradient(150deg, #97c74e 0%, #2ab9a5 100%);
+    background: -o-linear-gradient(150deg, #97c74e 0%, #2ab9a5 100%);
+    background: -ms-linear-gradient(150deg, #97c74e 0%, #2ab9a5 100%);
+    background: linear-gradient(150deg, #97c74e 0%, #2ab9a5 100%);
+    width: 90%;
+    border-bottom-right-radius: 140px;
+    border-top-right-radius: 140px;
+    text-align: center;
+    height: 400px;
+}
+.edition h1{
+  position: relative;
+  top: 10%;
+}
+
+.edition a{
+  padding: 10px 30px 10px 30px;
+  position: relative;
+  top: 50%;
+  background-color: white;
+  font-family: "Poppins", sans-serif;
+  font-weight:  400;
+  border: 2px solid rgb(83, 255, 83);
+  border-radius: 20px;
+  font-size: 20px;
+}
+.edition p{
+  position: relative;
+  color: black;
+  font-size: 18px;
+  top: -80%;
+  padding: 20%;
+}
+.edition{
+  display: inline;
+}
+.block{
+  width: 80%;
+  height: 400px;
+}
+.blockl img{
+  width: 40%;
+  height: 50%;
+  position: absolute;
+  right: 0px;
+}
+.edition .info-right{
+  position: absolute;
+  right: 0%;
+  border-bottom-left-radius: 140px;
+  border-top-left-radius: 140px;
+  background: -moz-linear-gradient(150deg, #97c74e 0%, #2ab9a5 100%);
+  background: -webkit-gradient(linear, left top, right top, color-stop(0%, #97c74e), color-stop(100%, #2ab9a5));
+  background: -webkit-linear-gradient(150deg, #97c74e 0%, #2ab9a5 100%);
+  background: -o-linear-gradient(150deg, #97c74e 0%, #2ab9a5 100%);
+  background: -ms-linear-gradient(150deg, #97c74e 0%, #2ab9a5 100%);
+  background: linear-gradient(150deg, #97c74e 0%, #2ab9a5 100%);
+  width: 90%;
+  text-align: center;
+  height: 400px;
+}
+
+.sectit h1{
+  color: #375c00;
+  text-align:center;
+  padding:  2% 0px 5% 0px;
+}
+@media only screen and (max-width: 768px) {
+  .edition p{
+    top:4%;
+    font-size: 14px;
+    padding: 1%;
+  }
+  .edition .info{
+    width: 100%;
+    border-top-right-radius: 0%;
+    border-bottom-right-radius: 0px;
+  }
+  .edition .info-right{
+    width: 100%;
+    border-top-left-radius: 0%;
+    border-bottom-left-radius: 0px;
+  }
+  .edition a{
+    top: 60%;
+  }
+}
